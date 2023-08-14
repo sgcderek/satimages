@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/Lexend/Lexend-VariableFont_wght.ttf')  format('truetype');
+}
+#logo {
+  width: 100%;
+  height: auto;
+  margin-right : auto;
+  margin-left : auto;
+  min-width : 200px;
+  max-width : 640px;
+}
+* {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Lexend;
+}
+body {
+  background-color: #10282c;
+  padding-left:15%;
+  padding-right:15%;
+  text-align: left;
+}
+p {
+  font-size: 16px;
+}
+img {
+	Padding: 10px;
+}
+a:link {
+  color: #2a5fbd;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #2a5fbd;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #2cb144;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}

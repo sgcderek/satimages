@@ -1,0 +1,102 @@
+2021-08-24 FengYun-3C VIRR Northern Ob River & Delta False Color Near-Infrared 1701.4 MHz HRPT.webp
+2021-08-24 FengYun-3C VIRR Northern Ob River & Delta False Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2021-08-24 FengYun-3C VIRR Northern Ob River & Delta Natural Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2022-01-17 NOAA-18 AVHRR3 London & Southern UK False Color Near-Infrared 1707 MHz HRPT.webp
+2022-01-17 NOAA-18 AVHRR3 London & Southern UK Natural Color Near-Infrared 1707 MHz HRPT.webp
+2022-05-05 Meteor-M N2 MSU-MR Attitude control malfunction False Color Near-Infrared 1700 MHz HRPT.webp
+2022-05-05 Meteor-M N2 MSU-MR Attitude control malfunction False Color Short-Wave Infrared 1700 MHz HRPT.webp
+2022-05-05 Meteor-M N2 MSU-MR Attitude control malfunction Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
+2022-05-10 Meteor-M N2 MSU-MR Attitude control malfunction Natural Color Near-Infrared 1700 MHz HRPT.webp
+2022-05-10 Meteor-M N2 MSU-MR Attitude control malfunction Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
+2022-05-19 Meteor-M N2 Attitude control malfunction False Color Short-Wave Infrared 1700 MHz HRPT.webp
+2022-05-20 NOAA-19 AVHRR3 Sri Lanka & South India False Color Near-Infrared 1698 MHz HRPT.webp
+2022-05-20 NOAA-19 AVHRR3 Sri Lanka & South India Natural Color Near-Infrared 1698 MHz HRPT.webp
+2022-05-23 Meteor-M N2-2 The Maldives False Color Long-Wave Infrared 1700 MHz HRPT.webp
+2022-05-23 Meteor-M N2-2 The Maldives False Color Near-Infrared 1700 MHz HRPT.webp
+2022-05-23 Meteor-M N2-2 The Maldives False Color Short-Wave Infrared 1700 MHz HRPT.webp
+2022-05-29 MetOp-C AVHRR3 Sri Lanka & South India False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-05-29 MetOp-C AVHRR3 Sri Lanka & South India False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-05-29 MetOp-C AVHRR3 Sri Lanka & South India NDVI Color 1701.3 MHz HRPT.webp
+2022-05-29 MetOp-C AVHRR3 Sri Lanka & South India Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-05-29 MetOp-C AVHRR3 Sri Lanka & South India Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-05-29 MetOp-C MHS Sri Lanka & South India False Color (Land) 1701.3 MHz HRPT.webp
+2022-05-29 Meteor-M N2-2 clouds Above the Indian Ocean False Color Long-Wave Infrared 1700 MHz HRPT.webp
+2022-05-29 Meteor-M N2-2 clouds Above the Indian Ocean False Color Near-Infrared 1700 MHz HRPT.webp
+2022-05-30 MetOp-C AVHRR3 Sri Lanka & South India False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-05-30 MetOp-C AVHRR3 Sri Lanka & South India NDVI Color 1701.3 MHz HRPT.webp
+2022-05-30 MetOp-C AVHRR3 Sri Lanka & South India Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-06-07 NOAA-19 AVHRR3 Indian East Coast False Color Long-Wave Infrared 1698 MHz HRPT.webp
+2022-06-07 NOAA-19 AVHRR3 Indian East Coast False Color Near-Infrared 1698 MHz HRPT.webp
+2022-06-07 NOAA-19 AVHRR3 Indian East Coast NDVI Color 1698 MHz HRPT.webp
+2022-06-07 NOAA-19 AVHRR3 Indian East Coast Natural Color Near-Infrared 1698 MHz HRPT.webp
+2022-06-14 MetOp-C AVHRR3 Sri Lanka False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-06-14 MetOp-C AVHRR3 Sri Lanka False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-06-14 MetOp-C AVHRR3 Sri Lanka NDVI Color 1701.3 MHz HRPT.webp
+2022-06-14 MetOp-C AVHRR3 Sri Lanka Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-06-14 NOAA-19 AVHRR3 The Maldives False Color Long-Wave Infrared 1698 MHz HRPT.webp
+2022-06-14 NOAA-19 AVHRR3 The Maldives False Color Near-Infrared 1698 MHz HRPT.webp
+2022-06-19 MetOp-B AVHRR3 Sri Lanka & South India False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-06-19 MetOp-B AVHRR3 Sri Lanka & South India False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-06-19 MetOp-B AVHRR3 Sri Lanka & South India NDVI Color 1701.3 MHz HRPT.webp
+2022-06-19 MetOp-B AVHRR3 Sri Lanka & South India Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-06-19 MetOp-B AVHRR3 Sri Lanka & South India Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-08-16 NOAA-19 AVHRR3 Hudson Bay False Color Long-Wave Infrared 1702.5 MHz GAC.webp
+2022-08-16 NOAA-19 AVHRR3 Hudson Bay False Color Near-Infrared 1702.5 MHz GAC.webp
+2022-08-16 NOAA-19 AVHRR3 Hudson Bay NDVI Color 1702.5 MHz GAC.webp
+2022-08-16 NOAA-19 AVHRR3 Hudson Bay Natural Color Near-Infrared 1702.5 MHz GAC.webp
+2022-08-16 NOAA-19 AVHRR3 Tropical Storm Estelle Natural Color Near-Infrared 1702.5 MHz GAC.webp
+2022-09-23 FengYun-3C VIRR Ob River False Color Near-Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Ob River Natural Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea False Color Near-Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea False Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea Natural Color Near-Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea Natural Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea Thermal Infrared 1701.4 MHz HRPT.webp
+2022-09-23 FengYun-3C VIRR Southern Caspian Sea Visible Color 1701.4 MHz HRPT.webp
+2022-10-15 PROBA-V Végétation-P The Moon Short-Wave Infrared Band 2235 MHz.webp
+2022-10-17 PROBA-V Végétation-P Namibian Desert Visible Blue Band 2235 MHz.webp
+2022-10-23 NOAA-15 AVHRR3 AVHRR Scan Motor Malfunction Natural Color Near-Infrared 1702.5 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Balkan Peninsula False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Balkan Peninsula Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Balkan Peninsula Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Western Turkiye & Cyprus False Color Long-Wave Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Western Turkiye & Cyprus False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Western Turkiye & Cyprus False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Western Turkiye & Cyprus Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-10-29 MetOp-C AVHRR3 Western Turkiye & Cyprus Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Southern Carpathians & Danube False Color Long-Wave Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Southern Carpathians & Danube False Color Near-Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Southern Carpathians & Danube Natural Color Near-Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Southern Carpathians & Danube Thermal Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Ukraine False Color Near-Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Ukraine Natural Color Near-Infrared 1702.5 MHz HRPT.webp
+2022-11-01 NOAA-15 AVHRR3 Ukraine Thermal Infrared 1702.5 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe False Color Long-Wave Infrared 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe False Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe NDVI Color 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2022-11-06 MetOp-C AVHRR3 Alps & Southern Europe Thermal Infrared 1701.3 MHz HRPT.webp
+2023-03-17 Meteor-M N2-2 MSU-MR White Sea False Color Near-Infrared 1700 MHz HRPT.webp
+2023-03-17 Meteor-M N2-2 MSU-MR White Sea False Color Short-Wave Infrared 1700 MHz HRPT.webp
+2023-03-17 Meteor-M N2-2 MSU-MR White Sea Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
+2023-03-18 MetOp-B AVHRR3 Moscow False Color Near-Infrared 1701.3 MHz HRPT.webp
+2023-03-18 MetOp-B AVHRR3 Moscow False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2023-03-18 MetOp-B AVHRR3 Moscow NDVI Color 1701.3 MHz HRPT.webp
+2023-03-18 MetOp-B AVHRR3 Moscow Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea False Color Near-Infrared 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea False Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea NDVI 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea NDVI Color 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea Natural Color Near-Infrared 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea Natural Color Short-Wave Infrared 1701.3 MHz HRPT.webp
+2023-04-22 MetOp-B AVHRR3 Baltic Sea Thermal Infrared 1701.3 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Aral Sea False Color Near-Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Aral Sea False Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Aral Sea Natural Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Aral Sea Visible Color 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Khanty-Mansi Okrug & Tomsk Oblast False Color Long-Wave Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Khanty-Mansi Okrug & Tomsk Oblast False Color Near-Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Khanty-Mansi Okrug & Tomsk Oblast Natural Color Short-Wave Infrared 1701.4 MHz HRPT.webp
+2023-04-25 FengYun-3C VIRR Khanty-Mansi Okrug & Tomsk Oblast Visible Color 1701.4 MHz HRPT.webp
