@@ -36,59 +36,5 @@
     });
 </script>
 
-<script>
-  function getFolderSize(folderPath, callback) {
-      fetch(folderPath)
-          .then(response => response.text())
-          .then(html => {
-              const parser = new DOMParser();
-              const doc = parser.parseFromString(html, 'text/html');
-              const links = doc.querySelectorAll('a');
-
-              let totalSize = 0;
-              let fileCount = 0;
-
-              links.forEach(link => {
-                  const href = link.getAttribute('href');
-                  if (!href.startsWith('../')) {
-                      fileCount++;
-                      fetch(folderPath + href)
-                          .then(response => response.blob())
-                          .then(blob => {
-                              totalSize += blob.size;
-                              fileCount--;
-
-                              if (fileCount === 0) {
-                                  callback(totalSize);
-                              }
-                          });
-                  }
-              });
-          })
-          .catch(error => {
-              console.error("Error:", error);
-          });
-  }
-
-  function formatSizeUnits(bytes) {
-      const units = ['B', 'KB', 'MB', 'GB', 'TB'];
-      let index = 0;
-
-      while (bytes >= 1024 && index < units.length - 1) {
-          bytes /= 1024;
-          index++;
-      }
-
-      return Math.round(bytes, 2) + ' ' + units[index];
-  }
-
-  const folderPath = '/images/samples/';
-  getFolderSize(folderPath, function (sizeInBytes) {
-      const formattedSize = formatSizeUnits(sizeInBytes);
-      document.getElementById('folderSize').textContent = formattedSize;
-  });
-</script>
-
-
 </body>
 </html>
