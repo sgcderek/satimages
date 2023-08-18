@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Satellite images gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/styles/default.css">
+</head>
+<body style="text-align: center;  padding-left:5%; padding-right:5%;">
+
+<p>This is a gallery of sample images decoded from satellites by amateurs</p>
+
+<div>
+  <label for="image-per-row-select">Images per row:</label>
+  <select id="image-per-row-select">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected>4</option>
+    <option value="5">5</option>
+  </select>
+</div>
+
+<div id="image-gallery"></div>
+
+<style>
+  #image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #image-gallery a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: calc(100% / var(--image-per-row));
+  }
+  #image-gallery img {
+    max-width: 95%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 600px) {
+    #image-gallery a {
+      flex-basis: calc(100% / var(--image-per-row, 4));
+    }
+  }
+</style>
+
+<script>
+  fetch('images/samples/names.txt')
+    .then(response => response.text())
+    .then(data => {
+      var images = data.trim().split('\n').map(filename => 'images/samples/' + filename.trim());
+      var gallery = document.getElementById('image-gallery');
+      for (var j = images.length - 1; j >= 0; j--) { // loop through images in reverse order
+        var link = document.createElement('a');
+    link.href = images[j];
+    link.target = '_blank';
+    var img = document.createElement('img');
+    img.src = images[j];
+    link.appendChild(img);
+    gallery.appendChild(link);
+  }
+
+  var imagePerRowSelect = document.getElementById('image-per-row-select');
+  imagePerRowSelect.addEventListener('change', function() {
+    gallery.style.setProperty('--image-per-row', this.value);
+  });
+})
+.catch(error => {
+  console.error(error);
+});
+</script>
+
+
+</body>
+</html>

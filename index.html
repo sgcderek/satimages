@@ -8,72 +8,85 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/styles/default.css">
 </head>
-<body style="text-align: center;  padding-left:5%; padding-right:5%;">
+<body style="text-align: center; padding-left:5%; padding-right:5%; padding-top:5%">
 
-<p>This is a gallery of sample images decoded from satellites by amateurs</p>
+<img id="random-image" width="35%" align="right" alt="HRPT sample image">
 
-<div>
-  <label for="image-per-row-select">Images per row:</label>
-  <select id="image-per-row-select">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4" selected>4</option>
-    <option value="5">5</option>
-  </select>
-</div>
+<p>Welcome to the satellite images gallery landing page.</p>
 
-<div id="image-gallery"></div>
+<p>The image you see on this page has been randomly picked from the gallery, which you can access in its entirety using the link below. While the images in the gallery use lossy webp compression, the total file size can still be a concern for some people with data caps. Instead of sharing a direct link to the gallery, please link this page instead.</p>
 
-<style>
-  #image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-  }
-  #image-gallery a {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: calc(100% / var(--image-per-row));
-  }
-  #image-gallery img {
-    max-width: 95%;
-    height: auto;
-  }
+<p style="font-size: xx-large"><a href="gallery.html">> Enter <</a></p>
 
-  @media screen and (min-width: 600px) {
-    #image-gallery a {
-      flex-basis: calc(100% / var(--image-per-row, 4));
-    }
-  }
-</style>
+<p>The current size of the gallery is <span id="folderSize">calculating...</span></p>
 
 <script>
   fetch('images/samples/names.txt')
     .then(response => response.text())
     .then(data => {
-      var images = data.trim().split('\n').map(filename => 'images/samples/' + filename.trim());
-      var gallery = document.getElementById('image-gallery');
-      for (var j = images.length - 1; j >= 0; j--) { // loop through images in reverse order
-        var link = document.createElement('a');
-    link.href = images[j];
-    link.target = '_blank';
-    var img = document.createElement('img');
-    img.src = images[j];
-    link.appendChild(img);
-    gallery.appendChild(link);
+      var images = data.trim().split('\n').map(filename => filename.trim());
+      var randomIndex = Math.floor(Math.random() * images.length);
+      var randomImage = images[randomIndex];
+
+      var img = document.getElementById('random-image');
+      img.src = "images/samples/" + randomImage;
+    })
+    .catch(error => {
+      console.error(error);
+    });
+</script>
+
+<script>
+  function getFolderSize(folderPath, callback) {
+      fetch(folderPath)
+          .then(response => response.text())
+          .then(html => {
+              const parser = new DOMParser();
+              const doc = parser.parseFromString(html, 'text/html');
+              const links = doc.querySelectorAll('a');
+
+              let totalSize = 0;
+              let fileCount = 0;
+
+              links.forEach(link => {
+                  const href = link.getAttribute('href');
+                  if (!href.startsWith('../')) {
+                      fileCount++;
+                      fetch(folderPath + href)
+                          .then(response => response.blob())
+                          .then(blob => {
+                              totalSize += blob.size;
+                              fileCount--;
+
+                              if (fileCount === 0) {
+                                  callback(totalSize);
+                              }
+                          });
+                  }
+              });
+          })
+          .catch(error => {
+              console.error("Error:", error);
+          });
   }
 
-  var imagePerRowSelect = document.getElementById('image-per-row-select');
-  imagePerRowSelect.addEventListener('change', function() {
-    gallery.style.setProperty('--image-per-row', this.value);
+  function formatSizeUnits(bytes) {
+      const units = ['B', 'KB', 'MB', 'GB', 'TB'];
+      let index = 0;
+
+      while (bytes >= 1024 && index < units.length - 1) {
+          bytes /= 1024;
+          index++;
+      }
+
+      return Math.round(bytes, 2) + ' ' + units[index];
+  }
+
+  const folderPath = '/images/samples/';
+  getFolderSize(folderPath, function (sizeInBytes) {
+      const formattedSize = formatSizeUnits(sizeInBytes);
+      document.getElementById('folderSize').textContent = formattedSize;
   });
-})
-.catch(error => {
-  console.error(error);
-});
 </script>
 
 
