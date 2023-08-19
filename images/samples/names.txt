@@ -104,3 +104,5 @@
 2023-04-25 FengYun-3C VIRR Khanty-Mansi Okrug & Tomsk Oblast Visible Color 1701.4 MHz HRPT.webp
 2023-08-16 PROBA-V Végétation-P The Moon Visible Red Band 2235 MHz.webp
 2023-08-18 MetOp-B AVHRR3 Southwest Australia at night 1701.3 MHz HRPT.webp
+2023-08-19 Meteor-M N2-3 MSU-MR Colorado Rocky Mountains Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
+2023-08-19 Meteor-M N2-3 MSU-MR Colorado Rocky Mountains False Color Near-Infrared 1700 MHz HRPT.webp
