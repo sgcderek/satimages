@@ -106,3 +106,9 @@
 2023-08-18 MetOp-B AVHRR3 Southwest Australia at night 1701.3 MHz HRPT.webp
 2023-08-19 Meteor-M N2-3 MSU-MR Colorado Rocky Mountains Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
 2023-08-19 Meteor-M N2-3 MSU-MR Colorado Rocky Mountains False Color Near-Infrared 1700 MHz HRPT.webp
+2023-09-03 FengYun-3G MERSI-RM Sunset over the Pyrenees False Color Short-Wave Infrared 7790 MHz HRPT.webp
+2023-09-03 FengYun-3G MERSI-RM Sunset over the Pyrenees Natural Color Near-Infrared 7790 MHz HRPT.webp
+2023-09-03 FengYun-3G MERSI-RM Sunset over the Pyrenees False Color Near-Infrared 7790 MHz HRPT.webp
+2023-09-04 FengYun-3G MERSI-RM The Alps False Color Short-Wave Infrared 7790 MHz HRPT.webp
+2023-09-04 FengYun-3G MERSI-RM The Alps Natural Color Near-Infrared 7790 MHz HRPT.webp
+2023-09-04 FengYun-3G MERSI-RM The Alps False Color Near-Infrared 7790 MHz HRPT.webp
