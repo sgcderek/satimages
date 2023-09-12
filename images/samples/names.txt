@@ -112,3 +112,6 @@
 2023-09-04 FengYun-3G MERSI-RM The Alps False Color Short-Wave Infrared 7790 MHz HRPT.webp
 2023-09-04 FengYun-3G MERSI-RM The Alps Natural Color Near-Infrared 7790 MHz HRPT.webp
 2023-09-04 FengYun-3G MERSI-RM The Alps False Color Near-Infrared 7790 MHz HRPT.webp
+2023-09-11 FengYun-3G MERSI-RM Storm clouds above the Benelux False Color Short-Wave Infrared 7790 MHz HRPT.webp
+2023-09-11 FengYun-3G MERSI-RM Storm clouds above the Benelux Natural Color Near-Infrared 7790 MHz HRPT.webp
+2023-09-11 FengYun-3G MERSI-RM Storm clouds above the Benelux False Color Near-Infrared 7790 MHz HRPT.webp
