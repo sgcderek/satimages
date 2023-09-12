@@ -23,6 +23,14 @@
   </select>
 </div>
 
+<div>
+  <label for="sort-select">Sort:</label>
+  <select id="sort-select">
+    <option value="time">Time</option>
+    <option value="random" selected>Random</option>
+  </select>
+</div>
+
 <div id="image-gallery"></div>
 
 <style>
@@ -56,25 +64,58 @@
     .then(data => {
       var images = data.trim().split('\n').map(filename => 'images/samples/' + filename.trim());
       var gallery = document.getElementById('image-gallery');
-      for (var j = images.length - 1; j >= 0; j--) { // loop through images in reverse order
-        var link = document.createElement('a');
-    link.href = images[j];
-    link.target = '_blank';
-    var img = document.createElement('img');
-    img.src = images[j];
-    link.appendChild(img);
-    gallery.appendChild(link);
-  }
+      
+      // Function to shuffle the array randomly
+      function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+      }
 
-  var imagePerRowSelect = document.getElementById('image-per-row-select');
-  imagePerRowSelect.addEventListener('change', function() {
-    gallery.style.setProperty('--image-per-row', this.value);
-  });
-})
-.catch(error => {
-  console.error(error);
-});
+      var currentSortOption = 'random'; // Set "Random" as the default sorting option
+
+      // Function to update the gallery with the current sort option
+      function updateGallery() {
+        if (currentSortOption === 'random') {
+          shuffleArray(images); // Shuffle the images randomly
+        } else {
+          images.sort(); // Sort the images by time (assuming file names represent time)
+        }
+        
+        gallery.innerHTML = ''; // Clear the gallery
+        
+        for (var j = images.length - 1; j >= 0; j--) {
+          var link = document.createElement('a');
+          link.href = images[j];
+          link.target = '_blank';
+          var img = document.createElement('img');
+          img.src = images[j];
+          link.appendChild(img);
+          gallery.appendChild(link);
+        }
+      }
+
+      // Initialize the gallery with the default sorting
+      updateGallery();
+
+      var imagePerRowSelect = document.getElementById('image-per-row-select');
+      var sortSelect = document.getElementById('sort-select');
+      
+      imagePerRowSelect.addEventListener('change', function() {
+        gallery.style.setProperty('--image-per-row', this.value);
+      });
+
+      sortSelect.addEventListener('change', function() {
+        currentSortOption = this.value; // Update the current sorting option
+        updateGallery(); // Update gallery based on the selected sorting option
+      });
+    })
+    .catch(error => {
+      console.error(error);
+    });
 </script>
+
 
 
 </body>
