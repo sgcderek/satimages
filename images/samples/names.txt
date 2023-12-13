@@ -119,3 +119,4 @@
 2023-09-11 FengYun-3G MERSI-RM Storm clouds above the Benelux Natural Color Near-Infrared 7790 MHz HRPT.webp
 2023-09-11 FengYun-3G MERSI-RM Storm clouds above the Benelux False Color Near-Infrared 7790 MHz HRPT.webp
 2023-11-29 Meteor-M N2-3 MSU-MR Instrument test mode False Color Short-Wave Infrared 1700 MHz HRPT.webp
+2023-12-12 NOAA-19 AVHRR3 Swirls west of Australia False Color Thermal Infrared 2247.5 MHz HRPT.webp
