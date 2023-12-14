@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Random satellite image</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/styles/default.css">
+</head>
+<body style="text-align: center">
+
+<img id="random-image" height="100%" alt="HRPT sample image">
+
+<p>Webpage will refresh every 10 seconds</p>
+
+<p style="font-size: x-large"><a href="index.html">> Back <</a></p>
+
+<script>
+  fetch('images/samples/names.txt')
+    .then(response => response.text())
+    .then(data => {
+      var images = data.trim().split('\n').map(filename => filename.trim());
+      var randomIndex = Math.floor(Math.random() * images.length);
+      var randomImage = images[randomIndex];
+
+      var img = document.getElementById('random-image');
+      img.src = "images/samples/" + randomImage;
+    })
+    .catch(error => {
+      console.error(error);
+    });
+
+    function setHeight() {
+      var windowHeight = window.innerHeight;
+      document.getElementById('random-image').setAttribute('height', windowHeight*0.95);
+    }
+
+    setHeight();
+
+    window.addEventListener('resize', setHeight);
+
+    setInterval(function() {
+      location.reload();
+    }, 10000); // 10000 milliseconds = 10 seconds
+</script>
+
+</body>
+</html>
