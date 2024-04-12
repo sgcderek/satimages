@@ -122,3 +122,6 @@
 2023-12-12 NOAA-19 AVHRR3 Swirls west of Australia False Color Thermal Infrared 2247.5 MHz HRPT.webp
 2023-12-18 FengYun-3C VIRR Sunset over the West Australian coast Visible Color 1701.4 MHz HRPT.webp
 2024-03-16 FengYun-3C VIRR The Ural River and Mountains Visible Color 1701.4 MHz HRPT.webp
+2024-04-08 FengYun-3C VIRR Cyclone Olga over West Australia Visible Color 1701.4 MHz HRPT.webp
+2024-04-08 PROBA-2 SWAP Solar eclipse 17.4 nm EUV Band (colorized) 2235 MHz.webp
+2024-04-09 Meteor-M N2-4 MSU-MR Hudson Bay ice cover Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
