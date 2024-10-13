@@ -126,3 +126,4 @@
 2024-04-08 PROBA-2 SWAP Solar eclipse 17.4 nm EUV Band (colorized) 2235 MHz.webp
 2024-04-09 Meteor-M N2-4 MSU-MR Hudson Bay ice cover Natural Color Short-Wave Infrared 1700 MHz HRPT.webp
 2024-07-29 Meteor-M N2-4 MSU-MR Cloud swirl over north-east Europe Visible-Infrared color 1700 MHz HRPT.webp
+2024-10-13 MetOp-C AVHRR3 Iceland Visible-Infrared color 1701.3 MHz HRPT.webp
